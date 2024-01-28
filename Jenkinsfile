@@ -1,7 +1,7 @@
 pipeline{
   agent any
   parameters{
-    booleanParameters(name:"value1",description:"new value",defaultValue:true)
+    booleanParam(name:"value1",description:"new value",defaultValue:true)
   }
   stages{
     stage("stage1"){
